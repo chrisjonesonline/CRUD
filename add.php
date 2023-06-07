@@ -1,9 +1,13 @@
 <html>
 <head>
 	<title>Add New User</title>
+<link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
+
+<h1>Create Read Update Destroy</h1>
+<hr /><br />
 <?php
 //including the database connection file
 include_once("server/config.php");

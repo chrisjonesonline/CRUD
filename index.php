@@ -10,9 +10,13 @@ $result = mysqli_query($mysqli, "SELECT * FROM users ORDER BY id DESC"); // usin
 <html>
 <head>	
 	<title>Create Read Update Destroy</title>
+<link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
+
+<h1>Create Read Update Destroy</h1>
+<hr /><br />
 
 	<table width='80%' border=0>
 
